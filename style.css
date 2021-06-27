@@ -5,7 +5,7 @@
 }
 
 html,
-body {
+body {  
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -23,20 +23,24 @@ h2 {
   left: 10%;
   right: 10%;
 }
+
 nav {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(70, 69, 69, 0.8);
   height: auto;
 }
+
 .main-nav {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   padding-bottom: 5px;
 }
+
 .active {
-  color: rgb(113, 231, 221);
-  font-size: 1.5rem;
+  color: rgb(74, 171, 189);
+  font-size: 1.6rem;
 }
+
 a{
   padding-right: 1.8rem;
   font-family: 'Lato', sans-serif;
@@ -46,12 +50,12 @@ a{
 }
 
 .main-nav>li:hover{
-  border-bottom: 2px solid rgb(207, 204, 204);
+  border-bottom: 2px solid rgb(124, 200, 223);
 }
-/*#ants {
+
+#ants {
   position: absolute;
   top: 40%;
   left: 40%;
   right: 30%;
 }
-*/
