@@ -4,21 +4,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://googleapis.com/css?family=Lato: 100,300,400,300italic">
   <title>Blotter Js</title>
 </head>
 <body>
+  
+  <script src="./index.js"></script>
     <div id="container">
       <nav>
         <ul class="main-nav">
-          <li><a href="index.html">Ants</a></li>
+          <li><a href="index.html" class="active">Ants</a></li>
           <li><a href="index2.html">Channel Split</a></li>
           <li><a href="index3.html">Liquid</a></li>
           <li><a href="index4.html">Sliding</a></li>
         </ul>
       </nav>
-    <div id="ants"></div>
+    <div id="ants" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(ants.jpg);
+     background-size: cover; 
+     background-position: center;
+     height: 100vh;background-attachment: fixed;"></div>
     <h2>Cool text effects using BlotterJs</h2>  
     </div>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/blotter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/fliesMaterial.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
