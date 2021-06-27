@@ -59,3 +59,10 @@ a{
   left: 40%;
   right: 30%;
 }
+
+#channel {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  right: 30%;
+}
