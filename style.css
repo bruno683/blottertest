@@ -53,14 +53,12 @@ a{
   border-bottom: 2px solid rgb(124, 200, 223);
 }
 
-#ants {
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  right: 30%;
-}
-
-#channel {
+ 
+ 
+#slide,
+#ants,
+#channel,
+#water {
   position: absolute;
   top: 40%;
   left: 40%;
